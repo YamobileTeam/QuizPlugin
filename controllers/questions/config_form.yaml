@@ -1,0 +1,10 @@
+name: Questions
+modelClass: Ukatz\Quiz\Models\Question
+form: $/ukatz/quiz/models/question/fields.yaml
+defaultRedirect: ukatz/quiz/questions
+create:
+    redirect: 'ukatz/quiz/questions/update/:id'
+    redirectClose: ukatz/quiz/questions
+update:
+    redirect: ukatz/quiz/questions
+    redirectClose: ukatz/quiz/questions

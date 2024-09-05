@@ -1,0 +1,17 @@
+fields:
+    name:
+        label: Категория
+        span: auto
+        type: text
+    image:
+        label: 'Картинка категории'
+        span: auto
+        mode: image
+        thumbOptions:
+            mode: crop
+            extension: auto
+        type: mediafinder
+    hidden_category:
+        label: 'Текст для отправки в поле категории'
+        span: auto
+        type: text

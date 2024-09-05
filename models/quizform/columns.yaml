@@ -1,0 +1,20 @@
+columns:
+    id:
+        label: id
+        type: number
+        searchable: true
+        sortable: false
+    phone:
+        label: Номер
+        type: text
+        searchable: true
+    created_at:
+        label: 'Дата создания'
+        type: datetime
+        searchable: true
+        sortable: false
+    category:
+        label: Категория
+        type: text
+        searchable: true
+        sortable: false

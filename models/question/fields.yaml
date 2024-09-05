@@ -1,0 +1,36 @@
+fields:
+    question:
+        label: Вопрос
+        span: full
+        type: text
+    hidden_text:
+        label: 'Вопрос для отправки'
+        span: full
+        type: text
+    question_list:
+        label: 'На какой станице отображается вопрос'
+        options:
+            1: '1'
+            2: '2'
+        showSearch: true
+        span: left
+        default: ''
+        type: dropdown
+    hint:
+        label: 'Общие вопросы, находятся на второй странице квиза, для общих вопросов не нужно выбирать к какой категории они относятся. Просто переключите флажок'
+        span: right
+        mode: info
+        type: hint
+    quest_check:
+        label: 'Общий вопрос?'
+        span: right
+        type: switch
+    ruler1:
+        span: right
+        type: ruler
+    relation:
+        label: 'Категория вопроса'
+        nameFrom: name
+        descriptionFrom: description
+        span: right
+        type: relation

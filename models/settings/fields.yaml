@@ -1,0 +1,13 @@
+fields:
+    repeater_emails:
+        label: "Email's"
+        prompt: 'Add new item'
+        displayMode: accordion
+        span: auto
+        type: repeater
+        form:
+            fields:
+                email:
+                    label: Email
+                    span: full
+                    type: text

@@ -1,0 +1,24 @@
+plugin:
+    name: 'ukatz.quiz::lang.plugin.name'
+    description: 'ukatz.quiz::lang.plugin.description'
+    author: Yamobile
+    icon: oc-icon-question-circle
+    homepage: ''
+navigation:
+    main-menu:
+        label: 'ukatz.quiz::lang.plugin.name'
+        url: quiz/mainmenu
+        icon: icon-question-circle
+        sideMenu:
+            side-menu-category:
+                label: Категории
+                url: ukatz/quiz/category
+                icon: icon-star
+            side-menu-item:
+                label: Вопросы
+                url: ukatz/quiz/questions
+                icon: icon-sitemap
+            side-menu-item2:
+                label: Запросы
+                url: ukatz/quiz/forms
+                icon: icon-tree

@@ -1,0 +1,10 @@
+name: Forms
+form: $/ukatz/quiz/models/quizform/fields.yaml
+modelClass: Ukatz\Quiz\Models\QuizForm
+defaultRedirect: ukatz/quiz/forms
+create:
+    redirect: 'ukatz/quiz/forms/update/:id'
+    redirectClose: ukatz/quiz/forms
+update:
+    redirect: ukatz/quiz/forms
+    redirectClose: ukatz/quiz/forms

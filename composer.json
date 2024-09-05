@@ -1,0 +1,11 @@
+{
+    "name": "YamobileTea/Quiz",
+    "type": "october-plugin",
+    "description": "Plugin for creating a quizes",
+    "homepage":"https://github.com/YamobileTeam/QuizPlugin",
+    "require": {
+        "php":">=7.0",
+        "hisorange/browser-detect": "dev-stable"
+    },
+    "minimum-stability":"dev"
+}

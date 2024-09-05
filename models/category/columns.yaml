@@ -1,0 +1,25 @@
+columns:
+    id:
+        label: id
+        type: number
+        searchable: true
+        sortable: true
+    created_at:
+        label: created_at
+        type: datetime
+        invisible: true
+    updated_at:
+        label: updated_at
+        type: datetime
+        invisible: true
+    category:
+        label: Категория
+        type: text
+        searchable: true
+        sortable: true
+    image:
+        label: image
+        type: text
+        searchable: false
+        invisible: true
+        sortable: false

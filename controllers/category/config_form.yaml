@@ -1,0 +1,10 @@
+name: Category
+form: $/ukatz/quiz/models/category/fields.yaml
+modelClass: Ukatz\Quiz\Models\Category
+defaultRedirect: ukatz/quiz/category
+create:
+    redirect: 'ukatz/quiz/category/update/:id'
+    redirectClose: ukatz/quiz/category
+update:
+    redirect: ukatz/quiz/category
+    redirectClose: ukatz/quiz/category

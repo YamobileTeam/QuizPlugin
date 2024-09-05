@@ -1,0 +1,12 @@
+list: $/ukatz/quiz/models/quizform/columns.yaml
+modelClass: Ukatz\Quiz\Models\QuizForm
+title: Forms
+noRecordsMessage: 'backend::lang.list.no_records'
+showSetup: true
+showCheckboxes: true
+recordsPerPage: 20
+toolbar:
+    buttons: list_toolbar
+    search:
+        prompt: 'backend::lang.list.search_prompt'
+recordUrl: 'ukatz/quiz/forms/update/:id'

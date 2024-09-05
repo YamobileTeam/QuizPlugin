@@ -1,0 +1,92 @@
+tabs:
+    fields:
+        source:
+            label: Источник
+            span: auto
+            disabled: 1
+            type: text
+            tab: 'Tab 1'
+        device_type:
+            label: 'Тип девайса'
+            span: auto
+            disabled: 1
+            type: text
+            tab: 'Tab 1'
+        ip:
+            label: IP
+            span: auto
+            disabled: 1
+            type: text
+            tab: 'Tab 1'
+        platform_name:
+            label: 'Операционная система'
+            span: auto
+            disabled: 1
+            type: text
+            tab: 'Tab 1'
+        browser_name:
+            label: 'Имя браузера'
+            span: auto
+            disabled: 1
+            type: text
+            tab: 'Tab 1'
+        user_agent:
+            label: User-Agent
+            span: auto
+            disabled: 1
+            type: text
+            tab: 'Tab 2'
+        utm_campaign:
+            label: 'Название кампании - utm_campaign'
+            span: auto
+            disabled: 1
+            type: text
+            tab: 'Tab 2'
+        utm_medium:
+            label: 'Канал кампании - utm_medium'
+            span: auto
+            disabled: 1
+            type: text
+            tab: 'Tab 2'
+        utm_source:
+            label: 'Источник кампании - utm_source'
+            span: auto
+            disabled: 1
+            type: text
+            tab: 'Tab 2'
+        utm_content:
+            label: 'Содержание компании - utm_content'
+            span: auto
+            disabled: 1
+            type: text
+            tab: 'Tab 2'
+        utm_term:
+            label: 'Ключевое слово'
+            span: auto
+            disabled: 1
+            type: text
+            tab: 'Tab 2'
+fields:
+    phone:
+        label: Телефон
+        span: auto
+        type: text
+    id:
+        label: ID
+        span: auto
+        disabled: 1
+        type: number
+    category:
+        label: Категория
+        span: auto
+        disabled: 0
+        type: text
+    answer1:
+        label: Проблема
+        span: left
+        disabled: 0
+        type: text
+    answer2:
+        label: 'Время записи'
+        span: left
+        type: text
